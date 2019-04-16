@@ -35,4 +35,6 @@ Some interview techniques are described.
 People are likely to have different opinions and data needs regarding the business workflow / database purpose.
 Mission objectives represent the tasks performed against the data in the database, and you define them after the mission statement.
 
+---
+
 ## Analyzing the current database
