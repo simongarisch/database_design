@@ -38,3 +38,14 @@ Mission objectives represent the tasks performed against the data in the databas
 ---
 
 ## Analyzing the current database
+To determine where you should go, you must first understand where you are.
+This could even be peper based or some other crude collection of files.
+If your analysis reveals that the current database is poorly designed, you can take precautions to ensure that you don't make the same mistakes in the new database. Do not adopt the current database structure as the basis for the new database structure.
+Also consider any future requirements the users may have.
+
+---
+
+## Establishing table structures
+
+
+
