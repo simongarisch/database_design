@@ -58,5 +58,8 @@ Redundant data is a value that is repeated in a field as a result of the field's
 ---
 
 ## Keys
+There are four main types of keys: candidate, primary, foreign, non-keys. A primary key field exclusively identifies the table throughout the database structure and helps establish relationships with other tables.
 
+---
+## Field Specifications
 
