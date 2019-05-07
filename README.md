@@ -62,4 +62,12 @@ There are four main types of keys: candidate, primary, foreign, non-keys. A prim
 
 ---
 ## Field Specifications
+Field level integrity warrants the following:
+* The identity and purpose of a field is clear, and all of the tables in which it appears are properly identified.
+* Field definitions are consistent throughout the database.
+* The values of a field are consistent and valid.
+* The types of modifications, comparisons, and operations that can be applied to the values in the field are clearly specified.
+
+---
+## Table Relationships
 
