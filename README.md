@@ -70,4 +70,6 @@ Field level integrity warrants the following:
 
 ---
 ## Table Relationships
+A properly defined relationship ensures relationship level integrity, which guarantees that a relationship itself is relaible and sound.
+
 
