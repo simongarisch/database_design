@@ -106,3 +106,12 @@ You establish a many to many relationship with a linking table. The linking tabl
 Regarding self referencing relationships: you use a primary key and a foreign key to establish these self referencing relationships. The difference here, however, is that the foreign key will reside in the same table as the primary key to which it refers. Consider a members table as a one to one self referencing relationship because a given member can sponsor only one other member within the organization.  Because the sponsor id field draws its values exclusively from the member id field, it acts as the foreign key for the relationship.
 
 A many to many relf referencing relationship might be a parts table where each part can consist of combinations of other parts. We could use a part components linking table where the part id and associated compontent part ids are foreign keys from the parts table.
+
+---
+## Business Rules
+A business rule is a statement that imposes some form of constraint on a specific aspect of the database. One example might be: a ship date cannto be prior to an order date. In the context of Python programming and sqlalchemy we have sqlalchemy.CheckConstraint.
+
+A validation table, also known as a lookup table, stores data that you specifically use for data integrity. Validation tables typically consist of a primary key and a non-key field.
+
+---
+## Views
