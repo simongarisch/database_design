@@ -115,3 +115,10 @@ A validation table, also known as a lookup table, stores data that you specifica
 
 ---
 ## Views
+The tables and views that comprise a given view are known as the view's base tables. A view is 'virtual' because it draws data from the base tables rather than storing data on its own. The only information about a view that is stored in the database is it's structure. Why use views:
+* Work with data from multiple tables simultaneously.
+* They reflect the most current information.
+* You can customize them to the specific needs of an individual or group of individuals.
+* We can include validation views.
+
+---
