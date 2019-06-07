@@ -122,3 +122,9 @@ The tables and views that comprise a given view are known as the view's base tab
 * We can include validation views.
 
 ---
+## Reviewing Data Integrity
+You want to make certain that the data integrity you've been so careful to establish is absolutely as sound as possible. You can take a modular approach of overall data integrity: table level, field level, relationship level integrity and business rules. Database documentation is also important now that we are reaching the end of our design process.
+
+---
+# Other Topics
+## Bad Design - What Not to Do
