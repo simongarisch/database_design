@@ -128,3 +128,6 @@ You want to make certain that the data integrity you've been so careful to estab
 ---
 # Other Topics
 ## Bad Design - What Not to Do
+* Flat-file design, sometimes known as the 'throw-everything in one big table' approach is common and fraught with problems: redundant data, inconsistent data and lack of data integrity.
+* Spreadsheet design: Taking a current spreadsheet structure and applying it unchanged to your database design.
+* Database design based on the database software.
